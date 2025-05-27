@@ -1,6 +1,6 @@
 @use "hero";
-@use"components/infos_bar";
-@use"components/buttons";
+@use "components/infos_bar";
+@use "components/buttons";
 
 *{
     margin: 0;
@@ -22,7 +22,4 @@
     @media (max-width: 640px){
         max-width: 80%;
     }
-
-    
-    
 }
