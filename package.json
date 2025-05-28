@@ -9,11 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "parcel": "^2.15.0"
-  },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.15.0",
+    "@parcel/transformer-sass": "^2.15.2",
+    "parcel": "^2.15.2",
     "sharp": "^0.33.5"
   }
 }
