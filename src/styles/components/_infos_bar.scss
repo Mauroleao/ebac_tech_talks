@@ -5,14 +5,14 @@
     justify-content: space-between;
 
     &__infos {
-    display : flex;
-    gap: 40px;
+        display : flex;
+        gap: 40px;
 
         &__item {
             font-size: 14px;
-            color: #000; // Updated to follow BEM convention
+            color: #000;
 
-            &__bold {
+            b {
                 color: #000;
                 font-size: 18px;
                 display: block;
@@ -24,8 +24,22 @@
     @media (max-width: 640px) {
         display: block;
 
-        .infos-bar__infos {
+        &__infos {
             display: block;
+            
+            &__item {
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    @media (max-width: 1024px) {
+        &__infos {
+            gap: 16px;
+
+            &__item {
+                font-size: 12px;
+            }
         }
     }
 }
